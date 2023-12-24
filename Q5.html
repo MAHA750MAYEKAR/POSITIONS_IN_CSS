@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TASK5</title>
+    <style>
+        .index{
+            height: 150px;
+            width: 150px ;
+            border: 1px solid green;
+            margin: 5px;
+        }
+        #box1{
+            background-color: blueviolet;
+        }
+        #box2{
+            background-color: rgb(250, 250, 4);
+            position: relative;
+            top: -80px;
+            left: 50px;
+            z-index: 3;
+        }
+        #box3{
+            background-color: rgb(250, 53, 4);
+            top: -180px;
+            left: 130px;
+            position: relative;
+          
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1>CSS z-index Property</h1>
+        <p>The z-index property in CSS controls the vertical stacking order of elements that overlap. As in, which one appears as if it is physically closer to you. z-index only affects elements that have a position value other than static (the default).
+
+            Elements can overlap for a variety of reasons, for instance, relative positioning has nudged it over something else. Negative margin has pulled the element over another. Absolutely positioned elements overlap each other. All sorts of reasons.</p>
+    </div>
+
+
+    <section>
+        <div class="index" id="box1">box1</div>
+        <div class="index"id="box2">box2</div>
+        <div class="index"id ="box3">box3 </div>
+
+    </section>
+    
+</body>
+</html>
